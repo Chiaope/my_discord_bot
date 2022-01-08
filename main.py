@@ -13,7 +13,7 @@ async def on_ready():
       print("Reloading boss timer")
       client.loop.create_task(rf.setBossTime())
     print(f'Role is {db["role"]}')
-    print(f'Channel: {type(db["role"])}')
+    print(f'Role: {type(db["role"])}')
     
 @client.event
 async def on_message(message):
