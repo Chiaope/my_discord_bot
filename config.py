@@ -53,6 +53,5 @@ if db["channel_to_run_id"] == None:
 if db["bufferFlag"] == None:
   db["bufferFlag"] = False
 
-print("Checking Role")
 if db["role"] == None:
-  db["role"] == "@everyone"
+  db["role"] = "@everyone"
